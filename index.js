@@ -21,6 +21,6 @@ function sayHiToGrandma(x) {
   else if (x..toUpperCase() === x)
   return 'YES INDEED!'
 
-  else if (x === x.toLowerCase)
+  else if (x.toLowerCase() === x)
   return 'I can\'t hear you!'
 }
