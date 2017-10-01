@@ -7,8 +7,8 @@ function whisper(x) {
 }
 
 function sayHiToGrandma(x) {
-  if x.toLowerCase()
+  if x.toLowerCase() === x
   return "I can't hear you!"
-  else if x.toUpperCase()
+  else if x.toUpperCase() === x
   return "YES INDEED!"
 }
