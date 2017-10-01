@@ -15,11 +15,10 @@ function logWhisper(x) {
 }
 
 function sayHiToGrandma(x) {
-  switch (x) {
-    case x.toUpperCase:
-      return "YES INDEED";
-      break;
-    default:
-      return "I can't hear you!";
-  }
+  if x === "I love you, Grandma"
+  return "I love you, too."
+  else if x === x.toUpperCase
+  return "YES INDEED"
+  else
+  return "I can't hear you!"
 }
